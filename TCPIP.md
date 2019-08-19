@@ -55,14 +55,14 @@ apenas o dado original seja mandado para a aplicação original.
 roteador, que examina para onde tem que mandar os dados e troca apenas o header da camada de acesso à rede. Depois, o dado viaja até o 
 destino e lá é retirado todos os headers e apenas os dados originais são enviados para a aplicação.
 
-###TCP vs UDP
+### TCP vs UDP
 
 UDP é um protocolo mais simples da camada de transporte. Ele não garante a entrega, preservação da sequência correta ou proteção contra
 duplicação dos dados, com o objetivo de um procedimento enviar dados para outro procedimento com o menor mecanismo de protocolo possível.
 Seu header só contém a porta de origem, destino e um checksum de uso opcional para a verificação de erros.
 
 
-###IPv4 vs IPv6
+### IPv4 vs IPv6
 
 O protocolo IPv4 foi por décadas a base para o modelo TCP/IP. Seu header é formado de 160 bits. No entanto, em 96 foi padronizado o protocolo
 IPv6. O principal motivo para o seu desenvolvimento é a necessidade de mais endereços. O IPv4 usa 32 bits para especificar um endereço. Com o
