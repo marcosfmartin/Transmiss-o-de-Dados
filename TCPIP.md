@@ -8,8 +8,7 @@ ethernet (cabo de rede). Essas redes são chamadas de **subnetworks**. Esses pro
 dados através da subnetwork para um host na mesma rede ou, no caso do receptor estar conectado em outra subnetwork, para um roteador que irá 
 encaminhar esses dados.
 
-**tl;dr**: O que dá a capacidade dos dados poderem atravessar diferentes tipo de conexões (ou seja, de um computador conectado no wi-fi conseguir
-receber dados de um computador conectado no cabo de rede) é o roteador.
+
 
 O protocolo IP é implementado em todos os end-systems (hosts) e em todos os roteadores. O protocolo TCP, por sua vez, só precisa ser
 implementado nos hosts. Isso acontece porque o protocolo IP, na camada de rede, é o responsável por transmitir os dados de um computador 
@@ -17,7 +16,7 @@ pro outro, enquanto o protocolo TCP, na camada de transporte, só é responsáve
 não têm aplicações que vão se utilizar dos dados, o protocolo TCP é desnecessário para eles.
 
 
-**tl;dr**: IP tem que ser implementado em todos os computadores que os dados passam. TCP apenas no emissor e receptor.
+**tl;dr**: O que dá a capacidade dos dados poderem atravessar diferentes tipo de conexões (ou seja, de um computador conectado no wi-fi conseguir receber dados de um computador conectado no cabo de rede) é o roteador. IP tem que ser implementado em todos os computadores que os dados passam. TCP apenas no emissor e receptor.
 
 
 ### Operações no modelo TCP/IP
